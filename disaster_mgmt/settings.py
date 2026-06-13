@@ -79,16 +79,16 @@ WSGI_APPLICATION = "disaster_mgmt.wsgi.application"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 
-""" DATABASES = {
+ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dbms',
-        'USER': 'postgres',
-        'PASSWORD': 'Fulstck',
+        'NAME': 'database_name',
+        'USER': 'user_name',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432',
     }
-}"""
+}
 
 
 # Password validation
